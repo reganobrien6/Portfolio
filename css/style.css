@@ -1,0 +1,96 @@
+.buttons {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #039f51; /* Pink color */
+    border-radius: 50px; /* 50% for a perfect circle */
+    color: #fff; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .buttons:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+    cursor: pointer;
+  }
+  .button {
+    display: inline-block;
+    padding: 30px;
+    background-color: #073511; /* Pink color */
+    border: none;
+    border-radius: 80%;
+    color: #fff; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: none; /* Remove drop shadow */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #b93c83; /* Darker pink on hover */
+    cursor:pointer;
+  }
+  .header {
+    height: 500px;
+    background-image: url("../images/ReganThinker2.jpg");
+    background-position: 0px -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .headerWords {
+    background-color: rgba(255 , 255, 255, 0.4);
+    padding: 10px;
+    width: 350px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    text-align: right;
+  }
+  .caseStudyWordSquare {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    padding:25px
+  }
+  .aboutMeHeader{
+    height: 250px;
+    background-image: url("../images/ReganThinker2.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0px -30px;
+    background-size: cover;
+  }
+  .caseStudyAndImage {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  .navButtons {
+    justify-content: center;
+  }
+  .storyboardSquare {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    padding:25px;
+  }
+  .storyboard {
+    display: grid;
+    grid-template-areas: "1 2 3" "4 5 6";
+  }
+  .makeupPictures {
+    display: grid;
+    grid-template-areas: "1 2 3" "4 5 6";
+  }
+  .paintingPictures {
+    display: grid;
+    grid-template-areas: "1 2 3" "4 5 6";
+  }
+  .spacer{
+    height: 30px;
+  }
